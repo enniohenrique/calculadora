@@ -10,6 +10,9 @@
     color: #fff;
     text-align: center;
 }
+.meu_nome {
+    padding-top: 60px ;
+}
 
 .calculadora {
     position: absolute;
@@ -40,4 +43,8 @@
     height: 30px;
     background-color: #fff;
     margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
 }
