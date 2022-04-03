@@ -1,13 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 .fundo {
-    background-image: linear-gradient(45deg,#000,crimson);
-    height: 100vh;
-    color: #fff;
+    background-image: radial-gradient(circle at 43.84% -20.44%, #d85cff 0, #ab50f2 25%, #7c42d4 50%, #4d34b5 75%, #152799 100%);    
+    height: 100vh;  
+    color: rgb(230, 230, 230);
     text-align: center;
 }
 .meu_nome {
@@ -16,12 +15,13 @@
 
 .calculadora {
     position: absolute;
-    background-color: rgba(0,0,0, 0.8);
+    background-color: rgba(102, 39, 153, 0.993);
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 15px;
     padding: 15px;
+    border: 3px solid rgb(255, 255, 255);
 }
 
 .botao {
@@ -29,13 +29,14 @@
     width: 50px;
     font-size: 25px;
     cursor: pointer;
-    margin: 3px;
-    background-color: rgb(31,31,31);
+    margin: 1px;
+    background-color: rgba(95, 3, 131, 0.884);
     border: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
 }
 .botao:hover {
-    background-color: #000;
+    background-color: rgb(212, 208, 208);
 }
 
 #resultado {
@@ -47,4 +48,12 @@
     color: black;
     text-align: right;
     padding: 5px;
+}
+
+.simbolo {
+    color: rgb(180, 6, 87)
+}
+
+.botao igual:hover {
+    background-color: rgb(212, 208, 208);
 }
